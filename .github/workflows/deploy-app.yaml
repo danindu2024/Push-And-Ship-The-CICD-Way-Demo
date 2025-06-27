@@ -38,4 +38,4 @@ jobs:
           ignore-unfixed: true
           severity: 'CRITICAL,HIGH,MEDIUM'
           vuln-type: 'os,library'
-          ignore-policy: '.github/trivy-ignore-policy.json'
+    
