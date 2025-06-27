@@ -7,7 +7,7 @@ describe("POST /add", () => {
     expect(res.statusCode).toBe(200);
     expect(res.body.result).toBe(12);
   });
-
+Push-And-Ship-The-CICD-Way-Demo
   it("should return 400 if inputs are not numbers", async () => {
     const res = await request(app).post("/add").send({ a: "foo", b: 2 });
     expect(res.statusCode).toBe(400);
